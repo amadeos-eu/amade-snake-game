@@ -1,0 +1,24 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=amadeOS Snake
+Name[de]=amadeOS Snake
+Name[fr]=amadeOS Snake
+Name[es]=amadeOS Snake
+Name[it]=amadeOS Snake
+GenericName=Snake Game
+GenericName[de]=Schlangenspiel
+GenericName[fr]=Jeu du serpent
+GenericName[es]=Juego de la serpiente
+GenericName[it]=Gioco del serpente
+Comment=Steer the snake to the apples and never bite yourself
+Comment[de]=Lenken Sie die Schlange zu den Äpfeln und beißen Sie sich nie selbst
+Comment[fr]=Dirigez le serpent vers les pommes sans jamais vous mordre
+Comment[es]=Guíe la serpiente hacia las manzanas sin morderse nunca
+Comment[it]=Guida il serpente verso le mele senza morderti mai
+Icon=amade-snake-game
+Exec=/usr/bin/amade-snake-game
+Terminal=false
+Categories=Game;ArcadeGame;
+Keywords=snake;nibbles;worm;apple;arcade;game;
+StartupNotify=true
