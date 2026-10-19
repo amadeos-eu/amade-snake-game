@@ -6,7 +6,8 @@ import eu.amadeos.gameengine.audio.Sound.Wave;
 /** The sound effects of Snake, made once at start: arcade tones, no recordings. */
 // --8<-- [start:sounds]
 final class SoundBank {
-    final Sound apple = Sound.tone(Wave.SQUARE, 600, 900, 0.06, 0.22);
+    /** A soft, rising gulp: a triangle wave has no hard edges, unlike the square blips of Bricks. */
+    final Sound apple = Sound.tone(Wave.TRIANGLE, 500, 900, 0.09, 0.3);
     /** E, G, high E: a little fanfare. */
     final Sound golden = note(659, 0.06).then(note(784, 0.06)).then(note(1319, 0.15));
     final Sound goldenAppears = Sound.tone(Wave.TRIANGLE, 1200, 1600, 0.08, 0.2);
