@@ -25,7 +25,7 @@ dependencies {
     // Loop and ticker, canvas, sprites, particles, sound, seeded random numbers, replays and the standard
     // game menu; brings amade-commons (theme, Motif look, start-up, XDG).
     // With ../amade-game-engine checked out, settings.gradle builds that checkout instead (composite build).
-    implementation 'com.github.datazuul:amade-game-engine:a2d871f4ee'
+    implementation 'com.github.datazuul:amade-game-engine:6e3b8b199b'
     runtimeOnly 'ch.qos.logback:logback-classic:1.5.18'
     testImplementation platform('org.junit:junit-bom:5.10.2')
     testImplementation 'org.junit.jupiter:junit-jupiter'
