@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- AppStream metadata of amade-snake-game, installed as /usr/share/metainfo/eu.amadeos.games.snake.metainfo.xml.
+     amadeOS Software shows it for the installed package; a repository's appstream-generator reads it too. -->
+<component type="desktop-application">
+  <id>eu.amadeos.games.snake</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>EUPL-1.2</project_license>
+
+  <name>amadeOS Snake</name>
+
+  <summary>Steer the snake to the apples and never bite yourself</summary>
+  <summary xml:lang="de">Die Schlange zu den Äpfeln steuern und sich nie selbst beißen</summary>
+  <summary xml:lang="fr">Guidez le serpent vers les pommes sans jamais vous mordre</summary>
+  <summary xml:lang="es">Lleve la serpiente a las manzanas sin morderse nunca</summary>
+  <summary xml:lang="it">Guida il serpente verso le mele senza morderti mai</summary>
+
+  <description>
+    <p>The classic snake: steer it to the apples, let it grow, and never bite the wall or yourself. Every apple makes the snake longer and a little faster; golden apples bring extra points.</p>
+    <p xml:lang="de">Die klassische Schlange: Steuern Sie sie zu den Äpfeln, lassen Sie sie wachsen und beißen Sie nie in die Mauer oder sich selbst. Jeder Apfel macht die Schlange länger und etwas schneller; goldene Äpfel bringen Extrapunkte.</p>
+    <p xml:lang="fr">Le serpent classique : guidez-le vers les pommes, laissez-le grandir et ne mordez jamais le mur ni vous-même. Chaque pomme rend le serpent plus long et un peu plus rapide ; les pommes dorées rapportent des points en plus.</p>
+    <p xml:lang="es">La serpiente clásica: llévela a las manzanas, déjela crecer y no muerda nunca el muro ni a sí misma. Cada manzana hace la serpiente más larga y algo más rápida; las manzanas doradas dan puntos extra.</p>
+    <p xml:lang="it">Il serpente classico: guidalo verso le mele, fallo crescere e non mordere mai il muro o te stesso. Ogni mela rende il serpente più lungo e un po' più veloce; le mele d'oro danno punti extra.</p>
+    <ul>
+      <li>Two quick presses make two turns</li>
+      <li xml:lang="de">Zwei schnelle Tastendrücke ergeben zwei Kurven</li>
+      <li xml:lang="fr">Deux appuis rapides font deux virages</li>
+      <li xml:lang="es">Dos pulsaciones rápidas hacen dos giros</li>
+      <li xml:lang="it">Due pressioni rapide fanno due curve</li>
+      <li>The title screen replays your best game</li>
+      <li xml:lang="de">Der Titelbildschirm zeigt Ihr bestes Spiel noch einmal</li>
+      <li xml:lang="fr">L'écran titre rejoue votre meilleure partie</li>
+      <li xml:lang="es">La pantalla de título repite su mejor partida</li>
+      <li xml:lang="it">La schermata del titolo ripete la tua partita migliore</li>
+      <li>Ten best scores</li>
+      <li xml:lang="de">Zehn Bestwerte</li>
+      <li xml:lang="fr">Dix meilleurs scores</li>
+      <li xml:lang="es">Diez mejores puntuaciones</li>
+      <li xml:lang="it">Dieci punteggi migliori</li>
+      <li>Built on amade-game-engine; plays on other operating systems as well</li>
+      <li xml:lang="de">Gebaut auf amade-game-engine; läuft auch auf anderen Betriebssystemen</li>
+      <li xml:lang="fr">Construit sur amade-game-engine ; fonctionne aussi sur d'autres systèmes d'exploitation</li>
+      <li xml:lang="es">Hecho con amade-game-engine; funciona también en otros sistemas operativos</li>
+      <li xml:lang="it">Costruito su amade-game-engine; funziona anche su altri sistemi operativi</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">amade-snake-game.desktop</launchable>
+  <icon type="stock">amade-snake-game</icon>
+  <categories>
+    <category>Game</category>
+    <category>ArcadeGame</category>
+  </categories>
+
+  <url type="homepage">https://github.com/datazuul/amade-snake-game</url>
+  <url type="bugtracker">https://github.com/datazuul/amade-snake-game/issues</url>
+  <developer id="eu.amadeos">
+    <name>amadeOS Project</name>
+  </developer>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>The snake on its way to the next apple</caption>
+      <caption xml:lang="de">Die Schlange auf dem Weg zum nächsten Apfel</caption>
+      <caption xml:lang="fr">Le serpent en route vers la prochaine pomme</caption>
+      <caption xml:lang="es">La serpiente camino de la próxima manzana</caption>
+      <caption xml:lang="it">Il serpente verso la prossima mela</caption>
+      <image>https://raw.githubusercontent.com/datazuul/amade-snake-game/main/docs/screenshots/amade-snake-game.png</image>
+    </screenshot>
+  </screenshots>
+
+  <provides>
+    <binary>amade-snake-game</binary>
+  </provides>
+  <content_rating type="oars-1.1"/>
+</component>
