@@ -51,8 +51,8 @@
     <category>ArcadeGame</category>
   </categories>
 
-  <url type="homepage">https://github.com/datazuul/amade-snake-game</url>
-  <url type="bugtracker">https://github.com/datazuul/amade-snake-game/issues</url>
+  <url type="homepage">https://github.com/amadeos-eu/amade-snake-game</url>
+  <url type="bugtracker">https://github.com/amadeos-eu/amade-snake-game/issues</url>
   <developer id="eu.amadeos">
     <name>amadeOS Project</name>
   </developer>
@@ -64,7 +64,7 @@
       <caption xml:lang="fr">Le serpent en route vers la prochaine pomme</caption>
       <caption xml:lang="es">La serpiente camino de la próxima manzana</caption>
       <caption xml:lang="it">Il serpente verso la prossima mela</caption>
-      <image>https://raw.githubusercontent.com/datazuul/amade-snake-game/main/docs/screenshots/amade-snake-game.png</image>
+      <image>https://raw.githubusercontent.com/amadeos-eu/amade-snake-game/main/docs/screenshots/amade-snake-game.png</image>
     </screenshot>
   </screenshots>
 
