@@ -1,6 +1,6 @@
 # amade-snake-game
 
-**amade-snake-game** is the classic snake on the [amadeOS](https://github.com/datazuul/amadeos) desktop: steer it to the apples, let it grow, and never bite the wall or yourself. Built on [amade-game-engine](https://github.com/datazuul/amade-game-engine); runs on other operating systems as well.
+**amade-snake-game** is the classic snake on the [amadeOS](https://github.com/amadeos-eu/amadeos) desktop: steer it to the apples, let it grow, and never bite the wall or yourself. Built on [amade-game-engine](https://github.com/amadeos-eu/amade-game-engine); runs on other operating systems as well.
 
 ![License](https://img.shields.io/badge/license-EUPL--1.2-blue)
 ![Java](https://img.shields.io/badge/Java-25-orange)
