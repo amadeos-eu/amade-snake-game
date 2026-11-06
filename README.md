@@ -5,6 +5,8 @@
 ![License](https://img.shields.io/badge/license-EUPL--1.2-blue)
 ![Java](https://img.shields.io/badge/Java-25-orange)
 
+![Snake](docs/screenshots/amade-snake-game.png)
+
 ## Playing
 
 - **Enter**, **Space** or a **click** (or F2) starts a game. The snake waits a moment; an arrow key starts it at once.
